@@ -723,22 +723,39 @@ body
 {
 	body
 	{
-		background-image:url("https://cdn.pixabay.com/photo/2014/04/07/20/27/texture-318907_960_720.jpg");
+		background-image:url("https://cdn.pixabay.com/photo/2017/03/24/07/01/code-2170396__340.jpg");
+		background-size:no-repeat;
 	}
 
-	#myresult
-	{
+	#myBtn {
+		display: none;
+		position: fixed;
+		bottom: 60px;
+		right: 90px;
+		z-index: 99;
+		border: none;
+		outline: none;
+		background-color: rgb(92, 84, 84);
+		color: white;
+		cursor: pointer;
+		padding: 15px;
+		border-radius: 10px;
+		font-size: 18px;
+		width: 15%;
+	}
+
+	#myresult {
 		font-family: 'Hind Siliguri', sans-serif;
-		background-image:url("https://cdn.pixabay.com/photo/2016/06/20/13/42/paper-1468878_960_720.jpg");
-		background-size:cover;
-		color:rgb(255, 255, 255);
+		background-color: rgba(128, 128, 128, 0.85);
+		background-size: cover;
+		color: rgb(255, 255, 255);
 		font-size: 15px;
 		font-weight: 600;
-		padding:8px;
-		text-align:center;
+		padding: 8px;
+		text-align: center;
 		text-shadow: 0 4px 8px rgb(3, 3, 3);
 		border: solid 12px rgba(0, 0, 0, 0.452);
 	}
-}       
+}
 
           
