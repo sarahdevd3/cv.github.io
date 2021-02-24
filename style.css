@@ -7,14 +7,7 @@ h1, h2, h3, h4, h5, p, a, ul, ol
 html
 {
 	font-size: 100%;
-}
-
-@font-face
-{
-	font-family:stay_homeregular;
-	src: url(STAYHOME.otf);
-	font-weight: normal;
-	font-style: normal;
+	box-sizing:border-box;
 }
 
 .cvcontainer
@@ -287,9 +280,6 @@ body
 	position: absolute;
 	line-height: 1.6em;
 	top:260px;
-	/*background: rgba(255,255,255,.9);
-	top:380px;
-	*/
 	width: 100%;
 }
 
@@ -391,12 +381,6 @@ body
 	border: 0;
 }
 
-/*.list li:nth-child(2n+1)
-{
-	background: #FAFAFA;
-}
-
-*/
 .list li a:hover
 {
 	color: #a36d00!important;
@@ -743,14 +727,12 @@ body
 	}
 #myresult {
 	font-family: 'Hind Siliguri', sans-serif;
-	/* background-image: url("https://cdn.pixabay.com/photo/2015/09/02/12/30/hiker-918473_960_720.jpg"); */
 	background-size: cover;
 	color: rgb(9, 8, 8);
-	font-size: 15px;
-	font-weight: 200;
+	font-size: 14px;
+	font-weight: 600;
 	padding: 8px;
 	text-align: center;
-	/* text-shadow: 0 4px 8px rgb(3, 3, 3); */
 	background-color: #808080e0;
 }
 }
